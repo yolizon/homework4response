@@ -30,7 +30,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-nav li.active {
+nav li.active a {
   color: var(--branding-color);
 }
 h1,
@@ -103,7 +103,7 @@ p {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
